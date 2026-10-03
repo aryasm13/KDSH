@@ -1,0 +1,17 @@
+1. create python environment:
+--> Run python3 -m venv ven
+
+2. activate the virtual environment
+
+
+3. install dependecnies:
+--> pip install -r requirements.txt
+
+4. create .env file and put open ai api key and base url in env file, for free tier you can use openRouter api key also but just change base url in env to https://openrouter.ai/api/v1
+
+5. Put the test.csv with all the test cases in root folder(code)
+
+6. Run the main file:
+--> python3 main.py
+
+7. After execution results.csv will be generated in same root folder which has final result
